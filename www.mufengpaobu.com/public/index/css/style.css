@@ -1,0 +1,294 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,
+legend,input,textarea,p,blockquote,th,td{
+    margin:0;padding:0;
+}
+a{
+    text-decoration: none !important;
+    color: #000000;
+}
+#title_top{
+   z-index: 0;
+}
+#top{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+}
+header .navbar .container .navbar-header a img {
+    height: 53px;
+}
+header .navbar .container .navbar-right li a{
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 15px;
+}
+header .navbar {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 100%;
+    z-index: 2;
+    height: 73px;
+    padding: 10px 0px;
+    border: none;
+    background:none;
+}
+.content div.index{
+
+    width: 100%;
+    background:#32CD32;
+    background:-moz-linear-gradient(left top, #32CD32, #228B22);
+    background:-webkit-gradient(linear, left top, right bottom, from(#32CD32), to(#228B22));
+    background:-o-linear-gradient(left top, #32CD32, #228B22);
+}
+#QRV{
+    position: absolute;
+    right: 25%;
+    top:58%;
+    width: 180px;
+    height: 180px;
+    display: none;
+}
+.content .index .row div.introduce{
+    padding-top: 200px;
+}
+.content .index .row div.introduce .jumbotron{
+    background:none;
+    position: relative;
+}
+.content .index .row div.introduce h1{
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.content .index .row div.introduce p{
+    line-height: 26px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.content .index .row div.introduce .download{
+    display: none;
+    position: absolute;
+    top: 220px;
+    left: 350px;
+}
+.content .index .row div.introduce a{
+    background-color: #48c23d;
+    border: 0 none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    font-size: 15px;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 44px;
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+}
+.content .index .row .img_phone{
+    margin-top: 90px;
+    padding: 0px 60px;
+    z-index: 3;
+}
+.content .index .row .img_phone img{
+    height: 596px;
+}
+.content div.service{
+
+    width: 100%;
+    background-color:#ffffff;
+    padding: 120px 0px 110px 0px;
+}
+
+.content .service .row .ser_title{
+    text-align: center;
+    height: 60px;
+    width: 100%;
+}
+.content .service .row .ser_title h1 span{
+    color: #4cae4c;
+}
+
+.content .service .row .module{
+    height: 184px;
+    text-align: center;
+    margin-top: 50px;
+}
+.content .service .row .module div.out{
+    margin: 0 auto;
+    border: 1px solid #edeef0;
+    border-radius: 50%;
+    color: #8a8a8a;
+    font-size: 26px;
+    height: 63px;
+    line-height: 63px;
+    width: 63px;
+}
+.content .service .row .module h4{
+    font-weight: 900;
+    color: #737373;
+    margin: 25px 0px 15px 0px;
+}
+.content .service .row .module p{
+    color: #979797;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.content div.moving{
+
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 100px 0px;
+    text-align: center;
+}
+.content .moving .row .mov_title{
+    margin-bottom: 70px;
+    height: 61px;
+    width: 100%;
+}
+.content .moving .row .mov_title h1 span{
+    color: #5bc0de;
+}
+.content .moving .row .mov_title .pull-right a h3{
+    margin-top: 25px;
+}
+.content .moving .row .news{
+    min-height: 678px;
+    background-color: #ffffff;
+}
+.content .moving .row .news img{
+    height: 262px;
+    width: 100%;
+}
+.content .moving .row .news .caption{
+    min-height: 364px;
+    padding: 40px 20px 30px 20px;
+}
+.content .moving .row .news .caption h3{
+    color: #5b5b5b;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 32px;
+    min-height: 63px;
+}
+.content .moving .row .news .caption p{
+    color: #979797;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0;
+}
+.content .moving .row .news .bottom{
+    height: 52px;
+    line-height: 52px;
+    border-top: 1px solid #e3e3e3;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #a4a4a4;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: right;
+}
+.content div.about{
+
+    width: 100%;
+    background-color: #ffffff;
+    padding: 120px 0px;
+    text-align: left;
+}
+.content .about .row .about_our h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #626262;
+    font-weight: 600;
+}
+.content .about .row .about_our p{
+    color: #979797;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    margin: 0;
+}
+.content .about .row .about_pic{
+    padding: 0px;
+}
+.content .about .row img{
+    margin-top: -60px;
+    height: 380px;
+    width: auto;
+}
+.content div.contact{
+
+    width: 100%;
+    padding: 120px 0px;
+    text-align: left;
+    background:#f9f9f9;
+}
+.content .contact .row .con_our h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #626262;
+    font-weight: 600;
+}
+.content .contact .row .con_our p{
+    color: #979797;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    margin: 0;
+}
+
+#service,#moving,#about,#contact{
+    opacity: 0;
+}
+footer{
+    line-height: 57px;
+    height: 57px;
+    background-color: #1e1e1e;
+    color: #666666;
+    text-align: center;
+}
+#container{
+    height: 300px;
+    width: 100%;
+    margin-top: -50px;
+}
+
+@media screen and (max-width:768px){
+    .news_other{
+        display: none;
+    }
+    img.hid{
+        display: none;
+    }
+    #QRV{
+        position: absolute;
+        right: 36%;
+        top:61%;
+        width: 150px;
+        height: 150px;
+    }
+}
+@media screen and (max-width:420px){
+    header .navbar .container .navbar-header a img {
+        display: none;
+    }
+    .content .index .row div.introduce{
+        padding-top: 70px;
+    }
+    #QRV{
+        position: absolute;
+        right: 9%;
+        top:69%;
+        width: 110px;
+        height: 110px;
+    }
+    #container{
+        margin-top: 50px!important;
+    }
+}
